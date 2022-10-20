@@ -1,5 +1,4 @@
 import * as React from "react";
-
 class MyComponent extends React.Component {
     state = {
         heading: "React Awesomesauce (Busy)",
