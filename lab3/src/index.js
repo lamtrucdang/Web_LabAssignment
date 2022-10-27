@@ -15,8 +15,7 @@ import MyList from './Ex1/MyList';
 import MyButton2 from './Ex1/Ex1-3';
 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+// const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // const appState = {
 //   text: "My Button",
@@ -58,14 +57,28 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 //   },
 // });
 
-root.render( 
+// root.render( 
   // <React.StrictMode>
-    <App />
+    // <App />
   // </React.StrictMode>
   // <MySection>
   //   <MyButton>My Button Text</MyButton>
   // </MySection>
   // <MyComponent/>
+// );
+
+//----------------
+//For exercise 4.1
+// const element = (
+//   <div style={{textAlign: "center", backgroundColor: "#d0f0c0", border: "1px", borderColor: "green", borderStyle: "solid"}}>Green is the prime color of the world</div>
+// );
+//----------------
+
+//For exercise 4.2
+const element = (
+
 );
+
+ReactDOM.render(element, document.getElementById('root'));
 
 reportWebVitals();
