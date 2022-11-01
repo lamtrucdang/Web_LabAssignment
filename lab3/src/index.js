@@ -83,23 +83,27 @@ import AlertButton from './Ex4/Ex4-2';
 //----------------
 
 //For exercise 4.3
-const smartPeople = [
-  { name: 'Johann Goethe', age: 82, IQ: 210},
-  { name: 'Albert Einstein', age: 76, IQ: 205},
-  { name: 'Leonardo da Vinci', age: 67, IQ: 180},
-  { name: 'Isaac Newton', age: 84, IQ: 190},
-  { name: 'James Maxwell', age: 48, IQ: 190},
-  { name: 'Rudolf Clausius', age: 66, IQ: 190},
-  { name: 'Nicolaus Copernicus', age: 70, IQ: 160},
-  { name: 'Gottfried Leibniz', age: 70, IQ: 182},
-  { name: 'William Sidis', age: 46, IQ: 200}
-]
+// const smartPeople = [
+//   { name: 'Johann Goethe', age: 82, IQ: 210},
+//   { name: 'Albert Einstein', age: 76, IQ: 205},
+//   { name: 'Leonardo da Vinci', age: 67, IQ: 180},
+//   { name: 'Isaac Newton', age: 84, IQ: 190},
+//   { name: 'James Maxwell', age: 48, IQ: 190},
+//   { name: 'Rudolf Clausius', age: 66, IQ: 190},
+//   { name: 'Nicolaus Copernicus', age: 70, IQ: 160},
+//   { name: 'Gottfried Leibniz', age: 70, IQ: 182},
+//   { name: 'William Sidis', age: 46, IQ: 200}
+// ]
 
-const element = [
-  <ul>
-    {smartPeople.map((person, index) => (<li key={index}>{person.name}, age: {person.age}, IQ: {person.IQ}</li>))}
-  </ul>
-  ];
+// const element = [
+//   <ul>
+//     {smartPeople.map((person, index) => (<li key={index}>{person.name}, age: {person.age}, IQ: {person.IQ}</li>))}
+//   </ul>
+//   ];
+//----------------
+
+//For exercise 4.4
+
 
 ReactDOM.render(element, document.getElementById('root'));
 
