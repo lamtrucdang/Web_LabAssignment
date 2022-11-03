@@ -18,6 +18,10 @@ import AlertButton from './Ex4/Ex4-2';
 
 import { Card, Avatar } from 'antd';
 import "antd/dist/antd.css";
+import './Ex4/card.css';
+
+import UserForm from './Ex4/Ex4-7';
+
 
 
 // const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -111,14 +115,14 @@ import "antd/dist/antd.css";
 // const card = {
 //   title: 'Elon Musk',
 //   description: 'Elon Reeve musk FRS is a business magnate, industrial designer, and engineer. He is the founder, CEO, CTO, and chief designer of SpaceX',
-//   avatar: 'http://www.gstatic.com/tv/thumb/persons/487130/487130_v9_bb.jpg',
+//   avatar: <img src="http://www.gstatic.com/tv/thumb/persons/487130/487130_v9_bb.jpg" alt="Elon Musk" />,
 //   cover: 'https://media.vanityfair.com/photos/574f453fbdf148e4205f29df/16:9/w_1200,h_630,c_limit/hive-contributor-profile-elon-musk.jpg'
 // };
 
 // const element = (
 //   <div>
 //     <Card>
-//       <Card.Meta 
+//       <Card.Meta className="card"
 //         title={card.title}
 //         description={card.description}
 //         avatar={card.avatar}
@@ -130,18 +134,43 @@ import "antd/dist/antd.css";
 //----------------
 
 //For exercise 4.5
-const user = {
-  firstName: 'Elon',
-  lastName: 'Musk',
-  age: 49
-}
+// const user = {
+//   firstName: 'Elon',
+//   lastName: 'Musk',
+//   age: 49
+// }
 
+// const element = (
+//   <div>
+//     <h1>User Information: </h1>
+//     <ul>
+//       <li>First Name: {user.firstName}</li>
+//       <li>Last Name: {user.lastName}</li>
+//       <li>Age: {user.age}</li>
+//     </ul>
+//   </div>
+// );
+//----------------
+
+//For exercise 4.6
+// const divStyle = {
+//   fontSize: '15px',
+//   backgroundColor: '#d0f0c0',
+//   border: '1px',
+//   borderColor: 'green',
+//   borderStyle: 'solid',
+// }
+// const element = (
+//   <div style={divStyle}>Green is the prime color of the world</div>
+// );
+//----------------
+
+//For exercise 4.7
 const element = (
   <div>
-    
+    <UserForm />
   </div>
 );
-
 ReactDOM.render(element, document.getElementById('root'));
 
 reportWebVitals();
