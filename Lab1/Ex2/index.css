@@ -13,61 +13,105 @@ input{
     font-family: "Montserrat", sans-serif;
 }
 
-h2 {
-    font-size: 2.5rem;
-    font-weight: 300;
-    color: #474a4b;
+/* prime: #23a29f 
+secondary: #717171
+third: #cccccc*/
+
+.title {
     text-align: center;
+    margin: 2rem 0;
 }
 
-h3 {
-    padding-top: 50px;
+.title h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+.title h6 {
     font-size: 1.5rem;
     font-weight: 300;
-    color: #474a4b;
-    margin-bottom: 1rem;
-    text-align: center;
+    color: #717171;
+}
+
+hr {
+    margin: 1rem auto;
+    border: 0.25px solid #cccccc;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    margin: 2.5rem 0;
+    line-height: 1.5rem;
+}
+
+.col-left {
+    width: 35%;
+    float: left;
+    padding: 0 1rem;
+    margin: 10px;
+}
+
+.col-left h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+.col-left p{
+    display: flex;
+    float: left;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #717171;
+    padding: 1.5rem 0;
 }
 
 .profile-img {
-    padding: 12px 15px;
-    width: 6rem;
-    height: 6rem;
-    object-fit: cover;
-    border-radius: 100%;
-}
-
-nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 50px;
+    float: left;
+    width: auto;
+    height: 280px;
 }
 
-.navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.col-right {
+    width: 35%;
+    float: right;
+    padding: 0 1rem;
+    margin: 10px;
 }
 
-.navbar button {
+.col-right h3 {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+.col-right .inform {
     list-style: none;
-    border-style: hidden;
-    background-color: #e2e2e2;
-    width: 8rem;
-    height: 3rem;
-}
-
-.navbar button a {
-    text-decoration: none;
-    color: #6e7374;    
-    text-align: center;
+    float: left;
     font-size: 1rem;
-    font-family: 'Montserrat', sans-serif;
-
+    font-weight: 300;
+    color: #717171;
+    padding: 1.5rem 0;
 }
 
-.navbar button:hover {
-    background-color: #d9d9dd;
-    border-style: 1px solid #979797;
+.inform li {
+    padding: 0.25rem 0;
+}
+
+.body {
+    text-align: center;
+    background-color: #f2efdf;
+    margin: 2.5rem 0;
+    vertical-align: baseline;
+}
+
+.body h2 {
+    width: 100%;
+    height: 5rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #23a29f;
 }
