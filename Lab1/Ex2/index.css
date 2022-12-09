@@ -19,34 +19,30 @@ third: #cccccc*/
 
 .title {
     text-align: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .title h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-weight: 300;
     color: #23a29f;
 }
 
 .title h6 {
+    margin-top: 2rem;
     font-size: 1.5rem;
     font-weight: 300;
     color: #717171;
 }
 
-hr {
-    margin: 1rem auto;
-    border: 0.25px solid #cccccc;
-}
-
 .intro {
     display: flex;
     justify-content: space-between;
-    margin: 2.5rem 0;
+    margin: 4rem 0;
     line-height: 1.5rem;
 }
 
-.col-left {
+.intro .col-left {
     width: 35%;
     float: left;
     padding: 0 1rem;
@@ -54,7 +50,7 @@ hr {
 }
 
 .col-left h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     color: #23a29f;
 }
@@ -72,10 +68,10 @@ hr {
     display: flex;
     float: left;
     width: auto;
-    height: 280px;
+    height: 284px;
 }
 
-.col-right {
+.intro .col-right {
     width: 35%;
     float: right;
     padding: 0 1rem;
@@ -83,35 +79,143 @@ hr {
 }
 
 .col-right h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 300;
     color: #23a29f;
 }
 
-.col-right .inform {
-    list-style: none;
-    float: left;
+.col-right .detail {
     font-size: 1rem;
     font-weight: 300;
     color: #717171;
     padding: 1.5rem 0;
 }
 
-.inform li {
+.col-right .inform {
+    list-style: none;
+    float: left;
+    width: 50%;
+}
+
+.col-right .inform li {
     padding: 0.25rem 0;
 }
 
-.body {
-    text-align: center;
-    background-color: #f2efdf;
-    margin: 2.5rem 0;
-    vertical-align: baseline;
+.col-right .inform-right {
+    float: right;
+    list-style: none;
+    width: 50%;
 }
 
-.body h2 {
-    width: 100%;
+.col-right .inform-right li {
+    padding: 0.25rem 0;
+}
+.flex-body {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap; */
+    background-color: #f2efdf;
+    /* padding: 0; */
+}
+
+.flex-body h2 {
+    text-align: center;
+    width: auto;
     height: 5rem;
     font-size: 2.5rem;
     font-weight: 300;
     color: #23a29f;
+    padding: 3rem 0;
+}
+
+.paragraph {
+    text-align: left;
+    margin: 4rem 0;
+    line-height: 1.5rem;
+    padding: 0 1rem;
+}
+
+.paragraph h3 {
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+.paragraph .block-container {
+    margin: 10px;
+    padding: 1.5rem 0;
+    font-size: 1rem;
+    font-weight: 300;
+    color: #717171;
+}
+
+.paragraph .block-container .block {
+    display: flex;
+}
+
+.paragraph .block-container .block .col-left {
+    width: 40%;
+    float: left;
+}
+
+.paragraph .block-container .block .col-right {
+    width: 60%;
+    float: right;
+}
+
+.paragraph .block-container .block .col-right .detail {
+    float: right;
+}
+
+.block li {
+    list-style: none;
+    padding: 0.25rem 0;
+}
+
+.flex-body-2 {
+    text-align: center;
+    width: auto;
+    height: 5rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+.flex-body-2 h2 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+.flex-body-2 h3 {
+    text-align: left;
+    margin: 10px;
+    font-size: 2rem;
+    font-weight: 300;
+    color: #23a29f;
+}
+
+
+
+
+
+
+
+
+
+/* RULER LINE*/
+.line-1 {
+    height: 0.25px;
+    background: #cccccc;
+    width: 95%;
+    margin: 2rem auto;
+
+}
+
+.line-2 {
+    height: 0.25px;
+    background: #cccccc;
+    width: 75%;
+    margin: 1.5rem auto;
 }
