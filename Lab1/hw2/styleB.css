@@ -1,0 +1,35 @@
+body {
+    font-family: "Tahoma", sans-serif;
+}
+
+/* #dfe1e7
+#eeeff2 */
+
+.container {
+    display: flex;
+
+}
+
+.box {
+    height: 150px;
+    width: 100px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    text-align: left;
+    font-size: 40px;
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.box:hover {
+    background-color: yellow;
+    color: rgb(179, 0, 0);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.v3 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
