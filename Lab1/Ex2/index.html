@@ -7,20 +7,22 @@
     <link rel="stylesheet" href="index.css">
 </head>
 
+<button class="darkmode" type="button" onclick="changeDark()">Dark</button>
+
 <div class="title">
     <h1>Yuzuru Hanyu</h1>    
-    <h6>Figure skater</h6>
+    <h6 id="white">Figure skater</h6>
 </div>
 <div class="line-1"></div>
 <div class="intro">
     <div class="col-left">
         <h3>Introduction</h3>
-        <p>Yuzuru Hanyu is a Japanese former competitive figure skater, becomes the first Japanese man to win an Olympic gold medal in figure skating.</p>
+        <p id="white">Yuzuru Hanyu is a Japanese former competitive figure skater, becomes the first Japanese man to win an Olympic gold medal in figure skating.</p>
     </div>
     <img class="profile-img" src="./profileimg.webp" alt="">
 
 
-    <div class="col-right">
+    <div id="white" class="col-right">
         <h3>Details</h3>
         <div class="detail">
             <ul class="inform">
@@ -402,4 +404,10 @@
     </div>
     <button><a href="https://en.wikipedia.org/wiki/Yuzuru_Hanyu">See more on Wikipedia</a></button>
 </div>
+<script>
+    function changeDark() {
+        document.body.style.backgroundColor = "#1a1a1a";
+        document.getElementById("white").style.color = "#ffffff";            
+        }
+</script>
 </html>
